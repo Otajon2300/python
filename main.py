@@ -230,15 +230,15 @@
 # natija = orta_arifmetik.orta_arifmetik_hisobla()
 # print("Ortacha arifmetigi:", natija)
 
-class Juftlar:
-    def __init__(self, *sonlar):
-        self.sonlar = sonlar
+# class Juftlar:
+#     def __init__(self, *sonlar):
+#         self.sonlar = sonlar
     
-    def ajratib_yoz(self):
-        juft_sonlar = [son for son in self.sonlar if son % 2 == 0]
-        print("Juft sonlar: ", juft_sonlar)
+#     def ajratib_yoz(self):
+#         juft_sonlar = [son for son in self.sonlar if son % 2 == 0]
+#         print("Juft sonlar: ", juft_sonlar)
 
-sonlar = [3, 5, 7, 10, 12, 15, 16]
-juftlar = Juftlar(*sonlar)
+# sonlar = [3, 5, 7, 10, 12, 15, 16]
+# juftlar = Juftlar(*sonlar)
 
-juftlar.ajratib_yoz()
+# juftlar.ajratib_yoz()
